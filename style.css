@@ -1,0 +1,35 @@
+
+/*button {*/
+/*    padding: 10px 20px;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*#Text {*/
+/*    margin-top: 10px;*/
+/*    font-size: 18px;*/
+/*}*/
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.traffic-light div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red-light {
+    background-color: #FF0000;
+}
+
+.yellow-light {
+    background-color: #FFFF00;
+}
+
+.green-light {
+    background-color: #00FF00;
+}
